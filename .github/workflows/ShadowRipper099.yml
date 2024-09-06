@@ -30,6 +30,6 @@ jobs:
          do {
              Write-Host $i
              Sleep 60
-             $i--
+             $i --
         } while ($i -gt 0)
         
